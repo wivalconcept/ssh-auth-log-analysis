@@ -93,7 +93,7 @@ python src/auth_log_analyzer.py -i data/ssh_auth_sample.log -o reports/report.cs
 ```
 python src/auth_log_analyzer.py -i data/ssh_auth_sample.log -o reports/report.txt -f txt -t 5
 ```
-Example Findings
+## Example Findings
 
 The analyzer identifies:
 
@@ -107,7 +107,7 @@ suspicious hosts with repeated failed login attempts
 
 These insights help security analysts detect potential brute-force attacks or unauthorized access attempts.
 
-Skills Demonstrated
+## Skills Demonstrated
 
 This project demonstrates practical cybersecurity and technical skills including:
 
@@ -123,7 +123,7 @@ Data analysis with Pandas
 
 Regular expressions for log parsing
 
-Future Improvements
+## Future Improvements
 
 Possible enhancements include:
 
@@ -137,10 +137,10 @@ integration with SIEM tools
 
 automated alert generation
 
-Author
+## Author
 
 Cybersecurity professional transitioning from Data Analytics with a focus on security operations, threat detection, and log analysis.
 
-License
+## License
 
 This project is for educational and portfolio purposes.
