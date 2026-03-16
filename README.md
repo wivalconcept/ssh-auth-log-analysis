@@ -1,10 +1,10 @@
-SSH Authentication Log Analysis
+# SSH Authentication Log Analysis
 
 A Python-based cybersecurity project that analyzes SSH authentication logs to detect suspicious login activity such as repeated authentication failures and potential brute-force attempts.
 
 This project demonstrates how security analysts can investigate authentication logs to identify possible unauthorized access attempts.
 
-Project Overview
+## Project Overview
 
 SSH servers generate authentication logs that contain valuable information about login attempts. These logs can reveal suspicious activity such as:
 
@@ -18,7 +18,7 @@ suspicious remote hosts
 
 This project parses authentication failure logs and generates a report highlighting potential security threats.
 
-Features
+## Features
 
 Parses SSH authentication logs
 
@@ -36,7 +36,7 @@ CSV
 
 JSON
 
-Project Structure
+## Project Structure
 ```
 ssh-auth-log-analysis
 │
@@ -51,15 +51,15 @@ ssh-auth-log-analysis
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-```
 
-Installation
+
+## Installation
 
 Clone the repository:
 ```
 git clone https://github.com/wivalconcept/ssh-auth-log-analysis.git
 cd ssh-auth-log-analysis
-```
+
 ## Installation
 
 Install dependencies:
