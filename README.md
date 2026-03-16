@@ -37,6 +37,7 @@ CSV
 JSON
 
 Project Structure
+```
 ssh-auth-log-analysis
 │
 ├── data
@@ -50,11 +51,13 @@ ssh-auth-log-analysis
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
+
 Installation
 
 Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/ssh-auth-log-analysis.git
+git clone https://github.com/wivalconcept/ssh-auth-log-analysis.git
 cd ssh-auth-log-analysis
 
 Install dependencies:
