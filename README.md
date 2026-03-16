@@ -56,10 +56,10 @@ ssh-auth-log-analysis
 Installation
 
 Clone the repository:
-
+```
 git clone https://github.com/wivalconcept/ssh-auth-log-analysis.git
 cd ssh-auth-log-analysis
-
+```
 Install dependencies:
 
 pip install -r requirements.txt
