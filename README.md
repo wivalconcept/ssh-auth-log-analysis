@@ -139,7 +139,7 @@ automated alert generation
 
 ## Example Report Output
 
-
+```
 SSH Authentication Failure Report
 ============================================================
 
@@ -161,7 +161,7 @@ Time range: 2025-06-14 15:16:01 to 2025-06-29 12:12:10
             62-192-102-94.dsl.easynet.nl               10
 
 
-
+```
 
 ## Author
 
