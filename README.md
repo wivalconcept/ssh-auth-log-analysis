@@ -137,7 +137,7 @@ integration with SIEM tools
 
 automated alert generation
 
-## Example Report Output
+Example Report Output
 
 
 SSH Authentication Failure Report
