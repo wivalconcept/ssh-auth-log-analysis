@@ -60,10 +60,14 @@ Clone the repository:
 git clone https://github.com/wivalconcept/ssh-auth-log-analysis.git
 cd ssh-auth-log-analysis
 ```
+## Installation
+
 Install dependencies:
 
+```bash
 pip install -r requirements.txt
-Usage
+
+## Usage
 
 Run the analyzer by specifying:
 
@@ -73,21 +77,22 @@ output report file
 
 report format
 
-Example (text report):
-
+## Example (text report):
+```
 python src/auth_log_analyzer.py -i data/ssh_auth_sample.log -o reports/report.txt -f txt
-
-Generate JSON report:
-
+```
+## Generate JSON report:
+```
 python src/auth_log_analyzer.py -i data/ssh_auth_sample.log -o reports/report.json -f json
-
-Generate CSV report:
-
+```
+## Generate CSV report:
+```
 python src/auth_log_analyzer.py -i data/ssh_auth_sample.log -o reports/report.csv -f csv
-
-Optional: adjust the suspicious activity threshold
-
+```
+## Optional: adjust the suspicious activity threshold
+```
 python src/auth_log_analyzer.py -i data/ssh_auth_sample.log -o reports/report.txt -f txt -t 5
+```
 Example Findings
 
 The analyzer identifies:
