@@ -137,6 +137,31 @@ integration with SIEM tools
 
 automated alert generation
 
+## Example Report Output
+
+
+SSH Authentication Failure Report
+============================================================
+
+1. Executive Summary
+------------------------------------------------------------
+Total authentication failures: 181
+Unique remote hosts: 20
+Unique targeted users: 3
+Suspicious hosts count: 18
+Time range: 2025-06-14 15:16:01 to 2025-06-29 12:12:10
+
+2. Top Remote Hosts
+------------------------------------------------------------
+                                   rhost  failed_attempts
+            n219076184117.netvigator.com               23
+                             218.188.2.4               14
+             h64-187-1-131.gtconnect.net               13
+                         209.152.168.249               10
+            62-192-102-94.dsl.easynet.nl               10
+adsl-70-242-75-179.dsl.ksc2mo.swbell.net               10
+
+
 ## Author
 
 Cybersecurity professional transitioning from Data Analytics with a focus on security operations, threat detection, and log analysis.
