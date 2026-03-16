@@ -1,0 +1,138 @@
+SSH Authentication Log Analysis
+
+A Python-based cybersecurity project that analyzes SSH authentication logs to detect suspicious login activity such as repeated authentication failures and potential brute-force attempts.
+
+This project demonstrates how security analysts can investigate authentication logs to identify possible unauthorized access attempts.
+
+Project Overview
+
+SSH servers generate authentication logs that contain valuable information about login attempts. These logs can reveal suspicious activity such as:
+
+repeated failed login attempts
+
+brute-force attacks
+
+targeted usernames
+
+suspicious remote hosts
+
+This project parses authentication failure logs and generates a report highlighting potential security threats.
+
+Features
+
+Parses SSH authentication logs
+
+Extracts remote host and targeted username information
+
+Identifies hosts with repeated login failures
+
+Detects suspicious activity based on configurable thresholds
+
+Generates investigation reports in multiple formats:
+
+TXT
+
+CSV
+
+JSON
+
+Project Structure
+ssh-auth-log-analysis
+│
+├── data
+│   └── ssh_auth_sample.log
+│
+├── reports
+│
+├── src
+│   └── auth_log_analyzer.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+Installation
+
+Clone the repository:
+
+git clone https://github.com/YOUR_USERNAME/ssh-auth-log-analysis.git
+cd ssh-auth-log-analysis
+
+Install dependencies:
+
+pip install -r requirements.txt
+Usage
+
+Run the analyzer by specifying:
+
+input log file
+
+output report file
+
+report format
+
+Example (text report):
+
+python src/auth_log_analyzer.py -i data/ssh_auth_sample.log -o reports/report.txt -f txt
+
+Generate JSON report:
+
+python src/auth_log_analyzer.py -i data/ssh_auth_sample.log -o reports/report.json -f json
+
+Generate CSV report:
+
+python src/auth_log_analyzer.py -i data/ssh_auth_sample.log -o reports/report.csv -f csv
+
+Optional: adjust the suspicious activity threshold
+
+python src/auth_log_analyzer.py -i data/ssh_auth_sample.log -o reports/report.txt -f txt -t 5
+Example Findings
+
+The analyzer identifies:
+
+total authentication failures
+
+most active remote hosts attempting login
+
+most targeted usernames
+
+suspicious hosts with repeated failed login attempts
+
+These insights help security analysts detect potential brute-force attacks or unauthorized access attempts.
+
+Skills Demonstrated
+
+This project demonstrates practical cybersecurity and technical skills including:
+
+Python scripting
+
+Log analysis
+
+Security event investigation
+
+Threat detection
+
+Data analysis with Pandas
+
+Regular expressions for log parsing
+
+Future Improvements
+
+Possible enhancements include:
+
+visualization of attack patterns
+
+geographic analysis of attacking IP addresses
+
+real-time log monitoring
+
+integration with SIEM tools
+
+automated alert generation
+
+Author
+
+Cybersecurity professional transitioning from Data Analytics with a focus on security operations, threat detection, and log analysis.
+
+License
+
+This project is for educational and portfolio purposes.
