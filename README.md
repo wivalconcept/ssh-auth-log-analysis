@@ -137,7 +137,7 @@ integration with SIEM tools
 
 automated alert generation
 
-Example Report Output
+## Example Report Output
 
 
 SSH Authentication Failure Report
@@ -159,7 +159,7 @@ Time range: 2025-06-14 15:16:01 to 2025-06-29 12:12:10
              h64-187-1-131.gtconnect.net               13
                          209.152.168.249               10
             62-192-102-94.dsl.easynet.nl               10
-adsl-70-242-75-179.dsl.ksc2mo.swbell.net               10
+
 
 
 
