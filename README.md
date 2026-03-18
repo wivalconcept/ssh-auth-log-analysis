@@ -165,7 +165,7 @@ Time range: 2025-06-14 15:16:01 to 2025-06-29 12:12:10
 
 ## Author
 
-Cybersecurity professional transitioning from Data Analytics with a focus on security operations, threat detection, and log analysis.
+Valentine Chukwunwike Cybersecurity Analyst | SOC | Threat Detection | Log Analysis
 
 ## License
 
